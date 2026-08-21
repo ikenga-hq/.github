@@ -1,6 +1,6 @@
 # Contributing to Ikenga
 
-Thanks for considering a contribution. Ikenga is the open-source desktop home for your Claude Code setup — a local-first visual cockpit and package manager for your agents, skills, commands, and MCP servers. It's Apache-2.0 and built in the open — issues, pull requests, and discussion all happen on GitHub. This guide is the org-wide baseline; a few repos add their own `CONTRIBUTING.md` for repo-specific setup, and the [shell](https://github.com/Royalti-io/ikenga) has the fullest local-dev walkthrough.
+Thanks for considering a contribution. Ikenga is the open-source desktop home for your Claude Code setup — a local-first visual cockpit and package manager for your agents, skills, commands, and MCP servers. It's Apache-2.0 and built in the open — issues, pull requests, and discussion all happen on GitHub. This guide is the org-wide baseline; a few repos add their own `CONTRIBUTING.md` for repo-specific setup, and the [shell](https://github.com/ikenga-hq/ikenga) has the fullest local-dev walkthrough.
 
 If anything here is unclear or out of date, that's a bug too. Open an issue.
 
@@ -13,7 +13,7 @@ If anything here is unclear or out of date, that's a bug too. Open an issue.
 
 ## Repository layout
 
-Ikenga is a multi-repo project under [`github.com/Royalti-io`](https://github.com/Royalti-io). Pick the repo that owns the thing you're changing:
+Ikenga is a multi-repo project under [`github.com/ikenga-hq`](https://github.com/ikenga-hq). Pick the repo that owns the thing you're changing:
 
 | Repo | Role | Package manager |
 |------|------|-----------------|
@@ -25,7 +25,7 @@ Ikenga is a multi-repo project under [`github.com/Royalti-io`](https://github.co
 | `ikenga-pkgs` | Canonical monorepo for all pkgs (engines, MCP servers, apps, skills) | **pnpm** + Changesets |
 | `ikenga-registry` | Static JSON registry of published pkgs | — |
 | `ikenga-site` | Marketing site + docs for ikenga.dev | **pnpm** |
-| `ikenga-artifact-builder` | Claude Code skill — `npx skills add royalti-io/ikenga-artifact-builder` for self-contained HTML artifacts | **pnpm** |
+| `ikenga-artifact-builder` | Claude Code skill — `npx skills add ikenga-hq/ikenga-artifact-builder` for self-contained HTML artifacts | **pnpm** |
 
 > **Package managers vary by repo. This is deliberate — don't introduce a foreign lockfile.** The shell and the `ikenga` CLI use **bun**; the shared libraries (`contract`, `tokens`) and `ikenga-pkgs` use **pnpm**; `iyke-cli` uses **cargo**.
 

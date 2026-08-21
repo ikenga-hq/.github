@@ -1,6 +1,6 @@
 # Security Policy
 
-We take security seriously across Royalti's projects (including the Ikenga platform — a local-first app that runs an AI engine, executes pkgs, and holds secrets in a vault). We'd rather hear about a problem from you than read about it later — thank you for taking the time to report responsibly.
+We take security seriously across Ikenga's projects (including the Ikenga platform — a local-first app that runs an AI engine, executes pkgs, and holds secrets in a vault). We'd rather hear about a problem from you than read about it later — thank you for taking the time to report responsibly.
 
 ## Supported versions
 
@@ -41,4 +41,4 @@ When a fix ships, we'll publish a security advisory crediting you (unless you'd 
 
 ## Scope
 
-This policy is the default for repositories under [`github.com/Royalti-io`](https://github.com/Royalti-io) — including the Ikenga platform (the shell, the CLIs `ikenga`/`iyke`, the contract/tokens libraries, and first-party pkgs in `ikenga-pkgs`) and Royalti's other services. A repository that ships its own `SECURITY.md` overrides this default for that repo. Third-party pkgs you install are outside this policy; report those to their authors. If you're unsure whether something is in scope, report it privately and we'll route it.
+This policy is the default for repositories under [`github.com/ikenga-hq`](https://github.com/ikenga-hq) — including the Ikenga platform (the shell, the CLIs `ikenga`/`iyke`, the contract/tokens libraries, and first-party pkgs in `ikenga-pkgs`) and Royalti's other services. A repository that ships its own `SECURITY.md` overrides this default for that repo. Third-party pkgs you install are outside this policy; report those to their authors. If you're unsure whether something is in scope, report it privately and we'll route it.
